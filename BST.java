@@ -16,7 +16,7 @@ public class BST
    public BSTEntry succ(BSTEntry p)
    {
 	   BSTEntry temp;
-	   if (p.right != null) //go down and right and then all the way down and left
+	   if (p.right != null) //go down and right a node and then all the way down and left
 	   {
 		   temp = p.right;
 		   while (temp.left!= null)//go all the way down and left
